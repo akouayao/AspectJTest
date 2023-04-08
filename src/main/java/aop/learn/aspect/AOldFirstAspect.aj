@@ -1,7 +1,7 @@
 package aop.learn.aspect;
 
 
-public aspect OldFirstAspect {
+public aspect AOldFirstAspect {
 
 	//PointCut
 	pointcut pc1(): execution(* *..Application.main(..));
