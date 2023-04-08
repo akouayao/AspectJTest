@@ -24,10 +24,8 @@ public aspect OldFirstAspect {
 		System.out.println("---------------------------------");
 		System.out.println("---BEFORE MAIN----");
 		System.out.println("---------------------------------");
-
-		//Execution
-
-
+		//Execution de l'opération du pointcut
+		proceed();
 		System.out.println("---------------------------------");
 		System.out.println("---AFTER MAIN----");
 		System.out.println("---------------------------------");
